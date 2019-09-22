@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		
+		<title>FORM</title>
+		
+		<style>
+		</style>
+	</head>
+	
+	<body>
+		<form action="" method="">
+			<fieldset>
+				<legend>Person Info</legend>
+				<label for="username">Username: </label><input type="text" id="username" name="username" /><br /><br />
+				<label for="password">Password: </label><input type="password" id="password" name="password" /><br /><br />
+				<input type="radio" name="gender" value="male" id="gender_male" /><label for="gender_male">Male</label><br />
+				<input type="radio" name="gender" value="femal" id="gender_female" /><label for="gender_female">Female</label><br /><br />
+				<input type="checkbox" name="vehicle" value="bike" id="vehicle_bike" /><label for="vehicle_bike">I have a boke</label><br />
+				<input type="checkbox" name="vehicle" value="car" id="vehicle_car" /><label for="vehicle_car">I have a car</label><br /><br />
+				<label for="degree">degree</label>
+				<select name="degree" id="degree">
+					<optgroup label="初等学历" disabled="disabled">
+						<option value="xx">小学</option>
+					</optgroup>
+					<optgroup label="中等学历">
+						<option value="cz">初中</option>
+						<option value="gz">高中</option>
+						<option value="zz" disabled="disabled">中专</option>
+						<option value="zx" disabled="disabled">职校</option>
+						<option value="zj" disabled="disabled">中技</option>
+					</optgroup>
+					<optgroup label="高等学历">
+						<option value="bk" selected="selected">本科</option>
+						<option value="ss">硕士</option>
+						<option value="bs">博士</option>
+					</optgroup>
+				</select><br /><br />
+				<textarea placeholder="placeholder"></textarea><br /><br />
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
